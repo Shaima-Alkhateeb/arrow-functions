@@ -225,8 +225,9 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// - refer to Student
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// - I dont Know
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// - Arrow functions do not have their own this, the value of this inside an arrow function remains the same throughout the lifecycle 
+//   of the function and is always bound to the value of this in the closest non-arrow parent function.
